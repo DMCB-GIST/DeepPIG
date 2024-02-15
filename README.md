@@ -3,6 +3,10 @@ Deep neural network with PaIrwise connected layers integrated with stochastic Ga
 This source code is for replication of the paper.
 ![alt text](https://github.com/DMCB-GIST/DeepPIG/blob/main/Fig1.png)
 
+**requirements**
+```
+pip install -r requirements.txt
+```
 
 ## Simulation study
 Run DeepPIG for the simulation study via synthetic data.

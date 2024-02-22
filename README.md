@@ -12,6 +12,7 @@ pip install -r requirements.txt
 Run DeepPIG for the simulation study via synthetic data.
 
 **required input** x_design = {linear, logistic} , y_design = {linear, nonlinear}, amplitude
+The optimal learning rate and regularization coefficient vary according to settings.
 ```
 ex) python run_simulation.py -xd linear -y nonlinear -a 10
 ```

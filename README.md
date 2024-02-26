@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Simulation study
 Run DeepPIG for the simulation study via synthetic data.
 
-**required input** x_design = {linear, logistic} , y_design = {linear, nonlinear}, amplitude
+**required input** x_design = {linear, logistic} , y_design = {linear, nonlinear}, amplitude <br>
 The optimal learning rate and regularization coefficient vary according to settings.
 ```
 ex) python run_simulation.py -xd linear -y nonlinear -a 10
@@ -19,7 +19,7 @@ ex) python run_simulation.py -xd linear -y nonlinear -a 10
 
 ## Real data analysis
 ### Cancer prognosis (Long-term survivor classification)
-**required input** cancer_type = {KIRC, LIHC, PAAD}, input_dim.
+**required input** cancer_type = {KIRC, LIHC, PAAD}, input_dim. <br>
 The gene expression files (expr_prognostic_DC_final.tsv) are already arranged by screening significance.
 ```
 ex) python run_survival.py -o KIRC -d 400

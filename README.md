@@ -19,9 +19,10 @@ ex) python run_simulation.py -xd linear -y nonlinear -a 10
 
 ## Real data analysis
 ### Cancer prognosis (Long-term survivor classification)
-**required input** cancer_type = {KIRC, LIHC, PAAD}
+**required input** cancer_type = {KIRC, LIHC, PAAD}, input_dim.
+The gene expression files (expr_prognostic_DC_final.tsv) are already arranged by screening significance.
 ```
-ex) python run_survival.py -o KIRC
+ex) python run_survival.py -o KIRC -d 400
 ```
 
 ### Human microbiome dataset
